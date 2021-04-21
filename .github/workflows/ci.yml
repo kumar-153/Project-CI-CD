@@ -19,7 +19,7 @@ steps:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-            - name: yarn install
+    - name: yarn install
       run: |
         yarn install
     - name: yarn test
