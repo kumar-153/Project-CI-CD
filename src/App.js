@@ -6,9 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>This is a demonstration for CI/CD with Github actions</p>
+        <p>This is deployed on heroku</p>
         <a
           className="App-link"
           href="https://reactjs.org"
